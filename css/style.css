@@ -57,7 +57,7 @@ span.a {
 
 span.b {
   display:inline;
-  padding-right:760px;
+  padding-right:690px;
   color:#0A0908;
   font-size:35px
 }
@@ -79,6 +79,11 @@ div.paragraph {
   text-align: center;
 }
 
+div.first {
+padding-right:300px;
+display:inline;
+}
+
 @keyframes first{
   from{
     height:350px;
@@ -93,38 +98,43 @@ div.paragraph {
 .first-image:hover {
   animation: first 1.5s forwards;
 }
-
+img.second-image{
+  height:440px;
+  width:348px;
+}
 @keyframes second{
   from{
-height:231.3px;
-width:182.7px;
+height:440px;
+width:348px;
   }
   to{
-
+height:550px;
+width:435px;
   }
 }
 
 .second-image:hover {
-
+animation: second 1.5s forwards;
 }
-
+div.second {
+  padding-right:300px;
+  display: inline;
+}
+img.third-image {
+  height:440px;
+  width:348px;
+}
 @keyframes third{
   from{
-
+    height:440px;
+    width:348px;
   }
   to{
-
+    height:550px;
+    width:435px;
   }
 }
 
 .third-image:hover {
-
+animation: third 1.5s forwards;
 }
-
- .second-image{
-
- }
-
- .third-image{
-
- }
